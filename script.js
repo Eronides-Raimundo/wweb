@@ -53,3 +53,22 @@ $(document).ready(function(){
         }
     });
 });
+
+// Seleciona todas as imagens
+var images = document.querySelectorAll("img");
+
+// Adiciona um evento click para cada imagem
+images.forEach(function(image) {
+  image.addEventListener("click", function() {
+    // Verifica se o navegador suporta a API de tela cheia
+    if (image.requestFullscreen) {
+      // Coloca a imagem em tela cheia
+      image.requestFullscreen();
+      // Ajusta a imagem para caber na tela sem cortar ou distorcer
+      image.style.objectFit = "contain";
+    } else {
+      // Mostra uma mensagem de erro
+      alert("Seu navegador não suporta a API de tela cheia.");
+    }
+  });
+});
