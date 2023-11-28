@@ -99,3 +99,11 @@ var mySwiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
   },
 });
+
+function playVideo() {
+  // Obtém o elemento iframe
+  const iframe = document.querySelector("iframe");
+
+  // Inicia a reprodução do vídeo
+  iframe.play();
+}
