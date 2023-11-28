@@ -1,420 +1,710 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio  | Eronides</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="short cut icon " href="image/img-1.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <div class="scroll-up-btn">
-        <ion-icon name="chevron-up-outline"></ion-icon>
-    </div>
-    <div class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#">Port<span>fólio</span></a></div>
-            <ul class="menu">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#teams">Clientes</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-            <div class="menu-btn">
-                <ion-icon name="menu-outline"></ion-icon>
-            </div>
-        </div>
-    </div>
-
-    <!--home inicio-->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Ola, meu nome é</div>
-                <div class="text-2">Eronides Raimundo</div>
-                <div class="text-3">Eu sou <span class="typing"></span></div>
-                <a href="https://web.whatsapp.com/send?phone=258844339982">Contratar-me</a>
-            </div>
-        </div>
-    </section>
-
-    <!--sessão sobre-->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">Sobre</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="image/img-1.jpg" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">Eronides Raimundo Guiamba <span class="typing-2"></span></div>
-                    <p>Formando-se em análise e desenvolvimento de sistemas.<br> Meu foco é o desenvolvimento web com HTML, CSS, JavaScript, MySQL e PHP. <br> Além da aplicação de metodologias ágeis, como SCRUM.
-
-                       <br> Estou sempre em constante aprendizado, adoro me aventurar em assuntos desconhecidos e variados. <br> Sinta-se livre para me acompanhar e entrar em contato comigo! 🚀<br>
-                       <br> Baixe o CV pra mais informações.
-                    </p>                    
-                    <a href="https://docs.google.com/document/d/1YHJlCXs_zpL3bfSYQG8iZslywIwiaAoWmAd4PykcVD0/edit?usp=sharing">Download CV</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-     <!--sessão serviços-->
-     <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">Serviços</h2>
-            <div class="serv-content">
-               <div class="card">
-                   <div class="box">
-                    <ion-icon name="brush-outline"></ion-icon>
-                    <div class="text">Designer Web</div>
-                    <p>Não basta apenas criar belos sites,deve ter um bom entendimento em marketing digital isso ajuda a gerar mais leads e vendas para seus clientes.
-                   Eu ofereço esse trabalho.
-                    </p>                   
-                </div>
-               </div>
-
-               <div class="card">
-                <div class="box">
-                    <ion-icon name="trending-up-outline"></ion-icon>
-                 <div class="text">Analise</div>
-                 <p>Análise é uma parte importante da vida de um desenvolvedor web. Ele está sempre avaliando o seu trabalho, seja ainda na fase de codificação, seja quando ele o apresenta para o mundo. <br> </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="box">
-                    <ion-icon name="code-outline"></ion-icon>
-                 <div class="text">Mais</div>
-                 <p>Além disso, o desenvolvedor web precisará entrar em contato com outras partes do desenvolvimento, como design, integração com servidores, banco de dados, segurança e até eventuais plataformas de e-commerce.</p>
-                </div>
-            </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Eronides</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="overlay overlay-lg">
+          <img src="./image/shapes/square.png" class="shape square" alt="" />
+          <img src="./image/shapes/circle.png" class="shape circle" alt="" />
+          <img
+            src="./image/shapes/half-circle.png"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./image/shapes/half-circle.png"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./image/shapes/x.png" class="shape xshape" alt="" />
+          <img src="./image/shapes/wave.png" class="shape wave wave1" alt="" />
+          <img src="./image/shapes/wave.png" class="shape wave wave2" alt="" />
+          <img src="./image/shapes/triangle.png" class="shape triangle" alt="" />
+          <img src="./image/shapes/letters.png" class="letters" alt="" />
+          <img src="./image/shapes/points1.png" class="points points1" alt="" />
         </div>
 
-    </section>
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./image/logo.png" alt="" />
+            </div>
 
-     <!--sessão especialidade-->
-     <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">Habilidades</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">Minhas habilidades criativas e experiencias</div>
-                    <p>O desenvolvedor web é o responsável por codificar, desenvolver e gerenciar sites. Para isso, ele usa blocos de construção feitos de linguagens específicas da web, como HTML, CSS, JavaScript, PHP & MySQL. Podemos dizer que ele será responsável por pegar uma ideia de um site, incluindo o conceito de design e transformar em realidade</p>
-                    <a href="#">Mais informações</a>
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#blog">Blog</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#hireme" class="active">Hire me</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Eronides Raimundo</h1>
+              <p class="text">
+                Bem-vindo ao meu portfólio! Espero que você goste do que vê.
+                Sou um Web design e Desenvolvedor Jr.
+                
+
+              </p>
+              <a href="https://docs.google.com/document/d/e/2PACX-1vSd8cYunMOr7_Ydp2-V47taK7f53mc88j1qKDjET_lC37HlV4GPfXADsh2RqgfJNXpVgEBlxozdfbw6/pub" class="btn">Download CV</a>
+            </div>
+
+            <div class="column-2 image">
+              <img
+                src="./image/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <img src="./image/person(2).png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What I Do">Services</h3>
+            <p class="text">
+              Alguns serviços que ofereço.
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./image/shapes/points3.png"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="./image-sm">Web Design</h3>
+                  <p class="text">
+                    A arte de criar sites bonitos e funcionais.
+                    Usando criatividade, tecnologia e conhecimento do usuário.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
                 </div>
-                <div class="column right">
-                   <div class="bars">
-                       <div class="info">
-                           <span>HTML</span>
-                           <span>23%</span>
-                       </div>
-                       <div class="line html"></div>
-                   </div>
-                   <div class="bars">
-                    <div class="info">
-                        <span>CSS</span>
-                        <span>15%</span>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./image/code-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Development</h3>
+                  <p class="text">
+                    A ciência de criar sites que funcionam.
+                    Usando lógica, programação e testes.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">App Development</h3>
+                  <p class="text">
+                    A arte e a ciência de criar aplicativos móveis.
+                    Usando criatividade, programação e testes. 
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./image/shapes/half-circle.png"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./image/shapes/half-circle.png"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./image/shapes/square.png" class="shape square" alt="" />
+            <img src="./image/shapes/wave.png" class="shape wave" alt="" />
+            <img src="./image/shapes/circle.png" class="shape circle" alt="" />
+            <img
+              src="./image/shapes/triangle.png"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./image/shapes/x.png" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Meus Trabalhos">Portfolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".ui">UI/UX</button>
+              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+              <button class="filter-btn" data-filter=".appdev">
+                Mobile App
+              </button>
+              <button class="filter-btn" data-filter=".logo-design">
+                Logo Design
+              </button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port1.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Cartaz Publicitário</h3>
+                      <h5>USEI: Postermywall.com</h5>
                     </div>
-                    <div class="line css"></div>
+                  </div>
                 </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>JavaScript</span>
-                        <span>13%</span>
+              </div>
+              <div class="grid-item webdev">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port2.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Logotipo</h3>
+                      <h5>USEI: Postermywall.com</h5>
                     </div>
-                    <div class="line js"></div>
+                  </div>
                 </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>PHP</span>
-                        <span>3%</span>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port3.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Imagem editada</h3>
+                      <h5>USEI: Postermywall.com</h5>
                     </div>
-                    <div class="line php"></div>
+                  </div>
                 </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>MySQL</span>
-                        <span>2%</span>
+              </div>
+              <div class="grid-item ui">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port4.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desdobrável</h3>
+                      <h5>USEI: Postermywall.com</h5>
                     </div>
-                    <div class="line mysql"></div>
+                  </div>
                 </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port5.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Convite</h3>
+                      <h5>USEI: Canva.com</h5>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div class="grid-item appdev">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port6.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desdobrávelt</h3>
+                      <h5>USEI: Postermywall.com</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item logo-design">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port7.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>CV personalizado</h3>
+                      <h5>USEI: Postermywall.com</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item appdev ui">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port8.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Infográfico</h3>
+                      <h5>USEI: Canva.com</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port9.png" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Desenho de Interfaces</h3>
+                      <h5>USEI: Figma.com</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item ui webdev">
+                <div class="gallery-image">
+                  <img src="./image/portfolio/port10.jpg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Cartão-de-visita</h3>
+                      <h5>USEI: Postermywall.com</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="more-folio">
+              <a href="#" class="btn">More Folio</a>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="video-section">
+      </section>
+      <section class="video-section">
         <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qBuaTavyNds" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </section>
-	<section class="portfolio" id="portfolio">
-		<div class="main-text">
-			<h2>Trabalhos</h2>
-			<h4> Cartaz, Desdobrável, Logótipo, Convite, CV, Cartão-de-Visita, Antes & Depois</h4>
-		</div>
-
-		<div class="portfolio-content">
-			<div class="row">
-				<img src="image/paper.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Cartaz Publicitário</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei com postermywall</h3>
-			</div>
-
-			<div class="row">
-				<img src="image/card.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Cartão-de-Visita</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei com postermywall</h3>
-			</div>
-
-			<div class="row">
-				<img src="image/1.png">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Desdobrável</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei com Canva</h3>
-			</div>
-
-			<div class="row">
-				<img src="image/2.png">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Desdobrável</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei com Canva</h3>
-			</div>
-
-			<div class="row">
-				<img src="image/conv.png">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Convite</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>
-          Editei com postermywall</h3>
-			</div>
-
-			<div class="row">
-				<img src="image/CV.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Curriculum Vitae</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei com postermywall</h3>
-			</div>
-      <div class="row">
-				<img src="image/Sem título.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Antes & Depois</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei usando o photoshop</h3>
-			</div>
-
-      <div class="row">
-				<img src="image/lotipo.jpg">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Logotipo</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei com postermywall</h3>
-			</div>
-
-      <div class="row">
-				<img src="image/inf.png">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Infografico</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei com canva</h3>
-			</div>
-			
-      <div class="row">
-				<img src="image/inter.png">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Interface </h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Editei com Figma</h3>
-			</div>
-		</div>
-	</section>
-
-     <!--sessão equipe-->
-     <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title">Clientes</h2>
-           <div class="carousel owl-carousel ">
-               <div class="card">
-                   <div class="box">
-                       <img src="image/Img-0.jpg" alt="">
-                       <div class="text">@charmilaafofa</div>
-                       <p>Parabéns, Faço Análise e Desenvolvimento De Sistemas , e o seu trabalho é sensacional 😍.</p>
-                   </div>
-               </div>
-               <div class="card">
-                <div class="box">
-                    <img src="image/img-2.jpg" alt="">
-                    <div class="text">@joséonenisimo</div>
-                    <p>Sempre acreditei em ti, me mostraste soluçao para todos os poblemas que enfrentava no meu website. Muito obrigado!</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="image/img-3.jpg" alt="">
-                    <div class="text">Mariana</div>
-                    <p>Parabéns, Faço Análise e Desenvolvimento De Sistemas , e o seu trabalho é sensacional 😍.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="image/img-4.jpg" alt="">
-                    <div class="text">Fabiana</div>
-                    <p>Parabéns, Faço Análise e Desenvolvimento De Sistemas , e o seu trabalho é sensacional 😍.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="image/img-5.jpg" alt="">
-                    <div class="text">@cnhancale</div>
-                    <p>Já procurei vários programadores, mas igual a voce nao encontrei. Simplesmente voce consegue fazer um pacote completo de Web. Eronides, estou muito satisfeito! Te desejo sucesso.</p>
-                </div>
-            </div>
-           </div>
+            <iframe width="1200" height="500" src="https://www.youtube.com/embed/qBuaTavyNds" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
 
-    <!--Sessão contato-->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contacto</h2>
-            <div class="contact-content">
-               <div class="column left">
-                   <div class="text">Fale Conosco</div>
-                   <p>Canal de atendimento eletrônico ao cidadão, para envio de reclamações, denúncias, sugestões, elogios, manifestações, solicitações de informação e recebimento de resposta.</p>
-               
-               <div class="icons">
-                   <div class="row">
-                        <ion-icon name="person-outline"></ion-icon>
-                        <div class="info">
-                            <div class="head">Nome</div>
-                            <div class="sub-title">Eronides Raimundo</div>
-                        </div>
-                   </div>
-                   <div class="row">
-                    <ion-icon name="earth-outline"></ion-icon>
-                    <div class="info">
-                        <div class="head">Endereço</div>
-                        <div class="sub-title">Bairro 10, Xai-Xai, Gaza Moçambique</div>
-                    </div>
-               </div>
-               <div class="row">
-                <ion-icon name="person-outline"></ion-icon>
-                <div class="info">
-                    <div class="head">Email</div>
-                    <div class="sub-title">eronideraimundo@gmail.com</div>
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Bem-vindo, Eronides Raimundo</h3>
+              <p class="text">
+                Formando-se em análise e desenvolvimento de sistemas. Meu foco é o desen0volvimento web com HTML, CSS, JavaScript, MySQL e PHP. Estou sempre em constante aprendizado, adoro me aventurar em assuntos desconhecidos e variados. Sinta-se livre para me acompanhar e entrar em contato comigo!
+              </p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="75%"></div>
+                  </div>
                 </div>
-           </div>
-               </div>
-            </div><!--column left-->
-            <div class="column rigth">
-                <div class="text">Mensagem</div>
-                <form action="https://formsubmit.co/eronideraimundo@gail.com" method="post">
-                    <div class="fields">
-                        <div class="field name">
-                            <input type="text" placeholder="Nome" required>
-                        </div>
-                        <div class="field email">
-                            <input type="email" placeholder="Email" required>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="field">
-                            <input type="text" placeholder="Sobrenome" required>
-                        </div>
-                        <div class="field textarea">
-                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </div>
-                </form>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="60%"></div>
+                  </div>
+                </div>
+              </div>
+              <a href="https://docs.google.com/document/d/e/2PACX-1vSd8cYunMOr7_Ydp2-V47taK7f53mc88j1qKDjET_lC37HlV4GPfXADsh2RqgfJNXpVgEBlxozdfbw6/pub" class="btn">Read more</a>
             </div>
+
+            <div class="column-2 image">
+              <img src="./image/shapes/points4.png" class="points" alt="" />
+              <img src="./image/about(2).png" class="z-index" alt="" />
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!--sessão  footer-->
-    <footer>
-        <a href="https://www.facebook.com/keywanted" class="fa fa-facebook"></a>
-        <a href="https://www.youtube.com/channel/UCmPUBvMsthazMbbntYoGBEA" class="fa fa-youtube"></a>
-        <a href="https://www.instagram.com/keymascarado/" class="fa fa-instagram"></a><br>
-        <span>Criado por <a href="https://github.com/Eronides-Raimundo">Eronides</a> | Todos os direitos reservado 2022</span>
+      <section class="records">
+        <div class="overlay overlay-sm">
+          <img src="./image/shapes/square.png" alt="" class="shape square1" />
+          <img src="./image/shapes/square.png" alt="" class="shape square2" />
+          <img src="./image/shapes/circle.png" alt="" class="shape circle" />
+          <img
+            src="./image/shapes/half-circle.png"
+            alt=""
+            class="shape half-circle"
+          />
+          <img src="./image/shapes/wave.png" alt="" class="shape wave wave1" />
+          <img src="./image/shapes/wave.png" alt="" class="shape wave wave2" />
+          <img src="./image/shapes/x.png" alt="" class="shape xshape" />
+          <img src="./image/shapes/triangle.png" alt="" class="shape triangle" />
+        </div>
 
+        <div class="container">
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="235">0</h2>
+              <h4 class="sub-title">Projects</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle active">
+              <h2 class="number" data-num="174">0</h2>
+              <h4 class="sub-title">Happy Clients</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="892">0</h2>
+              <h4 class="sub-title">Work Hour</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="368">0</h2>
+              <h4 class="sub-title">Awards</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog section" id="blog">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Last News">My blog</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo,
+              deserunt?
+            </p>
+          </div>
+
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <img
+                src="./image/shapes/points3.png"
+                alt=""
+                class="points points-sq"
+              />
+
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./image/blog1.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">March, 19 2020</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">This is a short title</h3>
+                  <p class="blog-text">
+                    Lorem ipsum, dolor sit amet elit. rem poimus? Tempora
+                    expedita eos autem! Lorem ipsum, dolor sit met.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./image/blog2.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">August, 02 2020</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">This is a short title</h3>
+                  <p class="blog-text">
+                    Lorem ipsum, dolor sit amet elit. Sint atque culpa repellat
+                    sunt sit amet nobis! Lorem ipsum dolor sit amet.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./image/blog3.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">December, 12 2020</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">This is a short title</h3>
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit, amet elit. enim numquam, laborum
+                    earum? Lorem ipsum dolor sit amet.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Fale Conosco</h3>
+              <p class="text">
+                Canal de atendimento eletrônico ao cidadão, para envio de reclamações, denúncias, sugestões, elogios, manifestações, solicitações de informação e recebimento de resposta.
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Moçambique, Gaza, Xai-Xai</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">eronideraimundo@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">+258 868381773</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 class="title"></h3>
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Send</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Let's talk about a project</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio,
+            culpa. Commodi suscipit animi officia dignissimos unde, ipsum fugiat
+            consequuntur, fugit ratione vel aperiam, similique distinctio
+            mollitia repellendus quasi rem vero!
+          </p>
+          <a href="#" class="btn">Hire me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              officiis quo officia quia?
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#blog">Blog</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Services</h3>
+            <ul>
+              <li>
+                <a href="#">Web Design</a>
+              </li>
+              <li>
+                <a href="#">Web Dev</a>
+              </li>
+              <li>
+                <a href="#">App Design</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">UI Design</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Subscribe</h3>
+            <p class="text">
+              Lorem ipsum dolor, sit amet ipsum dolor sit amet.
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 All rights reserved | Made by
+              <span class="split-text" data-text="FORUM"><a
+                href="#" > Eronides Raimundo Guiamba </a></span>
+             
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
